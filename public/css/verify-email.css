@@ -1,0 +1,17 @@
+body {
+  justify-content: center;
+}
+
+#msg-box {
+  padding: 24px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  background: rgb(20, 20, 20);
+  outline: solid rgb(30, 30, 30) 1px;
+}
+
+#msg-box .wrapper {
+  gap: 20px;
+  text-align: center;
+}

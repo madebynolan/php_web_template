@@ -1,0 +1,75 @@
+body {
+  justify-content: center;
+  gap: 20px;
+}
+
+body span,
+body form {
+  transform: translateY(-20px);
+}
+
+span, span a {
+  color: var(--flat);
+}
+
+#signup-form {
+  max-width: 400px;
+}
+
+form h1 {
+  text-align: center;
+}
+
+#password-wrapper {
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+#password-inputs {
+  gap: 4px;
+  flex-direction: row;
+}
+
+#password-inputs div:nth-of-type(1) {
+  width: 100%;
+}
+
+#password-inputs input {
+  border-radius: 4px 0 0 4px;
+}
+
+#show-password {
+  user-select: none;
+  border-radius: 0 4px 4px 0;
+  width: 48px;
+}
+
+#show-password img {
+  width: 20px;
+}
+
+#passwords .separator {
+  background: none;
+}
+
+#progress {
+  width: 0;
+  height: 100%;
+  background: red;
+}
+
+form p {
+  text-align: center;
+  color: var(--lift);
+}
+
+#signup {
+  background: var(--main);
+  margin-top: 8px;
+  width: 100%;
+}
+
+p a {
+  color: var(--lift);
+  text-decoration: underline;
+}

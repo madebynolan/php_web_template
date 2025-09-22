@@ -1,0 +1,120 @@
+body {
+  justify-content: center;
+  gap: 20px;
+}
+
+body span,
+body form {
+  transform: translateY(-20px);
+}
+
+span, span a {
+  color: var(--flat);
+}
+
+#login-form {
+  max-width: 400px;
+}
+
+form h1,
+form h3 {
+  text-align: center;
+}
+
+#password-wrapper {
+  border-radius: 4px;
+}
+
+#password-inputs {
+  gap: 4px;
+  flex-direction: row;
+}
+
+#password-inputs div:nth-of-type(1) {
+  width: 100%;
+}
+
+#password-inputs input {
+  border-radius: 4px 0 0 4px;
+}
+
+#show-password {
+  user-select: none;
+  border-radius: 0 4px 4px 0;
+  width: 48px;
+}
+
+#show-password img {
+  width: 20px;
+}
+
+form p {
+  text-align: center;
+}
+
+#login {
+  background: var(--main);
+  margin-top: 20px;
+  width: 100%;
+}
+
+#other {
+  gap: 8px;
+}
+
+#other p {
+  color: var(--lift);
+}
+
+p a {
+  color: var(--lift);
+  text-decoration: underline;
+}
+
+#ban-msg {
+  padding: 8px;
+  background: rgba(140, 0, 0, 0.8);
+  outline: solid red 1px;
+  border-radius: 4px;
+  color: rgb(220, 220, 220);
+  text-align: center;
+}
+
+#code-wrapper {
+  flex: 1;
+}
+
+#codes {
+  flex-direction: row;
+  gap: 8px;
+}
+
+#codes button {
+  flex: 0;
+}
+
+#resend {
+  width: 80px;
+}
+
+#staySignedIns-wrapper {
+  flex-direction: row;
+}
+
+#staySignedIns-wrapper button {
+  background: var(--main);
+  margin: 0;
+}
+
+#staySignedIns {
+  flex-direction: row;
+  width: 100%;
+  gap: 8px;
+}
+
+#staySignedIns label {
+  white-space: nowrap;
+  user-select: none;
+  margin: 0;
+  align-items: center;
+}

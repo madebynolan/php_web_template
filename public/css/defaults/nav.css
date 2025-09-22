@@ -1,0 +1,61 @@
+nav {
+  all: unset;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+#logo, 
+#nav-items,
+#profile, 
+#login-signup {
+  flex: 1;
+}
+
+#nav-items, #login-signup {
+  flex-direction: row;
+}
+
+#nav-items {
+  gap: 24px;
+  justify-content: center;
+}
+
+#login-signup {
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+#logo img {
+  background: white;
+  width: 80px;
+  aspect-ratio: 1 / 1;
+}
+
+#login, #signup {
+  background: var(--main);
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: white;
+  width: 80px;
+  text-align: center;
+}
+
+#login {
+  background: var(--flat);
+  color: var(--light);
+}
+
+#login:hover {
+  color: none;
+}
+
+#profile-photo {
+  background: white;
+  width: 80px;
+  aspect-ratio: 1 / 1;
+  padding: 4px;
+  border-radius: 100px;
+}

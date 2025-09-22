@@ -1,0 +1,22 @@
+{
+  "name": "madebynolan/php_template",
+  "description": "Simple backend session and user handling template for clean and minimal web pages",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Madebynolan\\PhpTemplate\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "madebynolan",
+      "email": "madebynolan@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6",
+    "snipe/banbuilder": "^2.3",
+    "bjeavons/zxcvbn-php": "^1.4",
+    "phpmailer/phpmailer": "^6.10"
+  }
+}
